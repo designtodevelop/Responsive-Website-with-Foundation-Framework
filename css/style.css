@@ -1,0 +1,101 @@
+#owl .item img{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: auto;
+    z-index:10;
+}
+#owl .item h1 {
+    position: absolute;
+    top: 40%;
+    left: 16%;
+    z-index: 20;
+    margin:0;
+    color: #ffffff;
+    text-align: center;
+    font-weight: 900;
+    font-size: 450%;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    text-shadow: 1px 1px 2px rgba(50, 50, 50, 0.59);
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    animation-delay: .5s;
+    -moz-animation-delay: .5s;
+    -webkit-animation-delay: .5s;
+}
+.top-bar {
+  margin: 30px;
+}
+.tabs {
+    padding-left: 7em;
+}
+.tabs-content {
+  padding-top: 1em;
+}
+.clearing-thumbs {
+  padding-left: 30px;
+}
+.pricing-content h2 {
+  text-align: center;
+}
+.email-subscription button {
+  display: block;
+}
+#footer {
+  background-color: #e3e7e9;
+}
+#footer ul {
+  padding-top: 10px;
+}
+#footer ul li {
+  display: inline-block;
+  margin:0 15px 0 0;
+}
+#footer .copyright {
+  padding-top: 10px;
+  text-align: right;
+}
+/* small displays */
+@media only screen {
+  #owl .item h1 {
+    font-size: 100%;
+  }
+  .tabs {
+    padding-left:0;
+  }
+}
+/* medium displays */
+@media only screen and (min-width: 40.063em) {
+  #owl .item h1 {
+    font-size: 200%;
+  }
+  .tabs {
+    padding-left: 7em;
+  }
+}
+/* large displays */
+@media only screen and (min-width: 64.063em) {
+  #owl .item h1 {
+    font-size: 300%;
+  }
+  .tabs {
+    padding-left: 7em;
+  }
+}
+/* xlarge displays */
+@media only screen and (min-width: 90.063em) {
+  #owl .item h1 {
+    font-size: 400%;
+  }
+  .tabs {
+    padding-left: 7em;
+  }
+}
+/* xxlarge displays */
+@media only screen and (min-width: 120.063em) {
+  #owl .item h1 {
+    font-size: 450%;
+  }
+}
